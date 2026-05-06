@@ -1,0 +1,14 @@
+{
+  "name": "icea-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ICEA static site project",
+  "scripts": {
+    "build": "scripts\\run-node.cmd scripts\\build.mjs",
+    "preview": "scripts\\run-node.cmd scripts\\preview.mjs",
+    "start": "scripts\\run-node.cmd scripts\\preview.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
